@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_author"
+    app:startDestination="@id/authorFragment">
+
+    <fragment
+        android:id="@+id/authorFragment"
+        android:name="com.aravind.superops.ui.view.fragment.AuthorFragment"
+        android:label="@string/author" />
+
+</navigation>
